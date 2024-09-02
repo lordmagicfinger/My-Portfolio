@@ -1,0 +1,32 @@
+@media screen and (max-width: 600px){
+    .header, .logo{
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .logo{
+        font-size: 2rem;
+    }
+    .navbar ul{
+        display: inline-block;
+        line-height: 6rem;
+        margin-top: 40px;
+    }
+    .navbar a{
+        display: block;
+        min-width: 480px;
+        transition: background 300ms ease-in;
+        overflow: hidden;
+    }
+    .navbar a:hover{
+        background-color: darkgreen;
+        text-decoration: none;
+    }
+}
